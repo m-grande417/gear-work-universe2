@@ -1,0 +1,18 @@
+Here’s a summary table of key cosmological anomalies and how the Gear-Phase Cosmology attempts to explain them:
+
+Anomaly	Problem in Standard Model (ΛCDM)	Gear-Phase Explanation
+CMB Cold Spot / Asymmetries	Unexpected large-scale temperature fluctuations and directional bias	Result of nearby gear-phase reversals causing thermodynamic and curvature distortions in the CMB 
+Void Heating	Some large cosmic voids are hotter than predicted	Caused by shear heating at boundaries between collapsing and expanding gears 
+Gravitational Lensing Drift	Lensing patterns show drift or asymmetry beyond baryonic mass effects	Caused by curvature shear from adjacent gears altering light paths 
+Redshift Anomalies / Hubble Tension	Discrepancy in measured expansion rates from different methods	Light travels through gears with varying entropy gradients, causing non-uniform redshifts 
+Initial Low Entropy	Universe’s beginning had extremely low entropy without clear reason	Each Big Bang is a local reversal, naturally starting with low relative entropy 
+Arrow of Time	No explanation for why time flows one way	Time direction is local, set by entropy flow in each gear; globally, time is symmetric 
+Structure Without Inflation	Inflation required to explain cosmic uniformity and structure	Reversals create local uniformity, and gear interactions seed structure formation without inflation 
+
+
+
+⸻
+
+This table highlights how the model offers coherent alternatives to explain puzzling features of our universe—though these explanations remain theoretical until observationally confirmed.
+
+Let me know if you’d like this turned into a visual chart or infographic.

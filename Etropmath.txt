@@ -1,0 +1,23 @@
+Cosmic expansion driven by entropy curvature.
+The scale factor a(t) evolves according to an entropy-derived energy density \rho_s(t) = \frac{4(a + 3bt)^2}{\gamma}, where S(t) = S_0 + a t^2 + b t^3 encodes entropy growth. This model leads to exponential expansion, with curvature of entropy (\ddot{S}) directly sourcing accelerated cosmic expansion. The log-scale highlights the nonlinear amplification of expansion at late times, reminiscent of inflationary or dark-energy-like behavior, but with entropic origin.
+
+
+[\gamma] = \frac{\text{Joules} \cdot \text{m}^3}{\text{Kelvin}^2 \cdot \text{seconds}^4}
+
+
+	•	\ddot{S} has units \frac{\text{J}}{\text{K} \cdot \text{s}^2}
+	•	\rho_s has units \frac{\text{J}}{\text{m}^3}
+	
+
+For the test entropy function:
+
+S(t) = S_0 + a t^2 + b t^3
+
+the corresponding entropy-curvature-driven energy density becomes:
+
+\rho_s(t) = \frac{4 (a + 3bt)^2}{\gamma}
+
+
+entropy-curvature-driven energy density into the Friedmann equation, we get the cosmic scale factor a(t) as:
+
+a(t) = C_1 \cdot \exp\left( \sqrt{\frac{6\pi G}{\gamma}} \, t \left( \pm\left( \frac{4a}{3} + 2bt \right) \right) \right)

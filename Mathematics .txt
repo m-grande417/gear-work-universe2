@@ -1,0 +1,68 @@
+“VI. Mathematical and Algorithmic Framework”:
+
+⸻
+
+VI. MATHEMATICAL AND ALGORITHMIC FRAMEWORK
+
+1. Definition of Entropy Biometrics
+
+For each physiological signal X = \{x_1, x_2, …, x_n\}, we define Shannon entropy as:
+
+H(X) = - \sum_{i=1}^{k} P(x_i) \log_2 P(x_i)
+
+Where:
+	•	x_i: Binned values of the physiological signal (e.g., RR intervals for HRV, EEG amplitudes).
+	•	P(x_i): Empirical probability of bin x_i across a defined observation window.
+	•	k: Number of bins chosen by adaptive histogram or kernel density estimation.
+
+2. Time-Varying Entropy Estimation
+
+To capture dynamic physiological entropy shifts, we compute:
+	•	Sliding Window Entropy: With window w, step s, and length T:
+H_t = H(X_{t-w+1:t})
+\quad \text{for } t = w, w+s, w+2s, …, T
+	•	Multivariate Entropy: Joint entropy across signals X, Y:
+H(X, Y) = - \sum_{i,j} P(x_i, y_j) \log_2 P(x_i, y_j)
+Used for EEG–HRV coherence or mitochondrial–transcriptomic entropy fusion.
+
+3. Entropy Normalization and Thresholding
+
+Each entropy metric H is Z-normalized using population data:
+Z_H = \frac{H - \mu_H^{(pop)}}{\sigma_H^{(pop)}}
+Where:
+	•	\mu_H^{(pop)}, \sigma_H^{(pop)}: Mean and standard deviation from reference cohort (age-, diagnosis-, or sex-matched).
+	•	Threshold for intervention trigger: when Z_H > \theta, where \theta \in [1.5, 2.5], determined empirically.
+
+4. Personalized Entropy Profile Generation
+
+During the initial 14-day diagnostic period:
+	•	Calculate the entropy distribution over time:
+P_H(z) = \text{PDF of } Z_H \text{ across baseline window}
+	•	Identify entropy excursions beyond personalized standard deviation envelope.
+	•	These excursions guide adaptive therapy calibration (modality, intensity, timing).
+
+5. AI-Driven Forecasting of Entropy Trajectories
+
+Let E(t) be the entropy vector at time t across all biomarkers.
+
+We define a digital twin model \hat{E}(t+\Delta t) as:
+\hat{E}(t+\Delta t) = f_{\theta}(E(t), u(t), c)
+Where:
+	•	f_{\theta}: AI function (RNN, Transformer, or GP).
+	•	u(t): Therapy vector (PEMF, light, vibration dosage at time t).
+	•	c: Context (age, baseline entropy, comorbidities).
+
+Loss function for entropy forecasting model:
+\mathcal{L} = \frac{1}{T} \sum_{t=1}^{T} \| E(t+\Delta t) - \hat{E}(t+\Delta t) \|^2
+
+6. Real-Time Control Algorithm
+
+Given entropy state vector E(t), choose action a(t) \in \mathcal{A} (therapy configuration) that minimizes expected entropy spike:
+
+a^*(t) = \arg \min_{a \in \mathcal{A}} \mathbb{E}[\hat{H}(t+1) | E(t), a]
+
+This defines a Bayesian Optimization loop, optionally coupled with a reinforcement learning agent (e.g., PPO or DDPG).
+
+⸻
+
+⸻

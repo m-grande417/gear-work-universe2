@@ -1,4 +1,4 @@
-Open source cosmological and entropic theory, written outside of academis. It proposes
+Open source cosmological and entropic theory, written outside of academia. It proposes
 Entropy as curvature
 Local temporal shear as times arrow
 Redshift as entropic misalignment

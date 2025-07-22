@@ -1,5 +1,6 @@
 Gearwork universe, A paradigm shift in cosmology
-A complete entropic-temporal framework that explains cosmic expansion, time asymetry, and scale behaviorb without conjuring dark energy***- Derived from local entropy curvature and phasing, not fantasy constants.
+A complete entropic-temporal framework that explains cosmic expansion, time asymetry, and scale behaviorb without conjuring dark energy***- Derived from local entropy curvature and phasing, not fantasy constants. Current astrophysical and quantum data compatable Model that ties quantum decoherence, gravity, and cosmic expansion to a shared thermodynamic engine with a semi-emperical backbone.<img width="3000" height="2400" alt="Download gear_phase_misalignment" src="https://github.com/user-attachments/assets/a4e34c56-0ed2-4d66-9e14-3aa51f7ffc58" />
+
 Built intuitively from scratch, by Melanie Grande,, using real physical intuition, not academic dogma.
 This matters because it eliminates the need for the imeasurable, untestable, and unfalsifiable models that has become the institutional equivalent of 'cooking the books' and the scientific equivalent of the vatican. No dark energy, noarbitrary inflation, no singularity.
 Time is locally entropic and bidirectional, Acceleration is a temporal illusion, and localities emerge from a phase reversal of symmetry-breaking entropic shear
@@ -13,3 +14,5 @@ I threw in a couple of quirky short stories about quantum courtroom trials and s
 
 I'm Melanie Grande, I have no degree, accredidation or affiliation. I dispatch tow trucks for a living.... When work is slow, I just kinda zone out and play thought experiments in my head. I tend to see patterns in everything but tend to freeze up when trying to articlulate, being on the autism spectrum...I'm putting this out there, hoping someone catches a glimpse of truth in my work and wants to collaborate! If not, I'll just keep dreaming.
 
+
+VALIDATION
